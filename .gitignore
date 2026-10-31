@@ -44,6 +44,7 @@ lerna-debug.log*
 .env.test.local
 .env.production.local
 .env.local
+.env.*
 
 # temp directory
 .temp
@@ -58,12 +59,11 @@ pids
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
-# Block automated AI configuration clutter
-api/.agents/
-api/.claude/
-api/.cursor/
-api/.devin/
-api/prisma.config.ts
+# Local AI tooling configuration
+/.agents/
+/.claude/
+/.cursor/
+/.devin/
 
 # Generated Prisma Client
 /src/generated/prisma/
