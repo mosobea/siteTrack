@@ -1,7 +1,17 @@
 # SiteTrack
 
-A construction project management platform for organizing projects, managing tasks, and tracking work progress.
+## Problem 
 
+Construction projects involve multiple people, tasks, and responsibilities that need to be coordinated. Without a centralized management system, keeping track of project activities, assigning responsibilities. can become challenging.
+
+## Solution
+
+**SiteTrack** aims to simplify construction project management by providing a centralized platform where project managers can:
+
+- Manage construction projects.
+- Organize and assign tasks to team members.
+- Track task progress and completion.
+- Keep project information organized in one place.
 
 ## Tech Stack
 
