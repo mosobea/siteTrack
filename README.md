@@ -9,3 +9,6 @@ A construction project management platform for organizing projects, managing tas
 - **Language:** TypeScript
 - **Database:** PostgreSQL
 - **ORM:** Prisma
+
+## ERD
+<img width="2570" height="1615" alt="image(1)" src="https://github.com/user-attachments/assets/158c4f17-5937-44ac-87a3-f7ab9e07e719" />
