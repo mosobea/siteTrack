@@ -10,8 +10,8 @@ datasource db {
 
 enum Role {
     ADMIN
-    Manager
-    Worker
+    MANAGER
+    WORKER
 }
 
 enum TaskStatus {
@@ -25,7 +25,7 @@ model User {
     email     String   @unique
     passwordHash  String
     name      String
-    role      Role @default(Worker)
+    role      Role @default(WORKER)
     createdAt DateTime @default(now())
     ownedProjects Project[] @relation("ProjectOwner")
     tasks     Task[]  
