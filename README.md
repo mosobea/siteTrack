@@ -24,4 +24,19 @@ The system currently focuses on helping project teams:
 <img width="2720" height="1496" alt="image(2)" src="https://github.com/user-attachments/assets/43c1e7c8-b94f-4fcf-a96b-74b99530d9f3" />
 
 ## Current API Endpoints
-<img width="2226" height="1115" alt="image" src="https://github.com/user-attachments/assets/5f65d9d8-67a0-434d-b063-670f401d10b4" />
+<img width="1491" height="1270" alt="image" src="https://github.com/user-attachments/assets/ba5e8f8e-7dba-4f44-b640-ef8431660eab" />
+
+### Phase 1: Core API
+- [x] Project setup, PostgreSQL, Prisma schema
+- [x] Auth: register, login, JWT
+- [x] Role-based access control
+- [x] Projects CRUD
+- [x] Tasks CRUD with filtering and pagination
+
+### Phase 2: Site workflows
+- [ ] Issues (punch list)
+- [ ] RFIs
+- [ ] Comments
+### Phase 3:
+- [ ] React front end
+- [ ] File upload for issue photos
